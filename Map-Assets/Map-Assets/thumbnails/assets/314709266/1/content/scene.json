@@ -1,0 +1,649 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Object_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 2731,
+					"triangles": 5370,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_1",
+					"index": 1,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 2731,
+					"triangles": 5370,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_2",
+					"index": 2,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 2731,
+					"triangles": 5370,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"farm_animals"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "root",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "GLTF_SceneRootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3,
+					10,
+					17
+				]
+			},
+			"3": {
+				"name": "Armature_3",
+				"parent": 2,
+				"position": [
+					-0.198845,
+					1.3273,
+					-1.3804
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "GLTF_created_0",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					5,
+					8,
+					9
+				]
+			},
+			"5": {
+				"name": "GLTF_created_0_rootJoint",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					6
+				]
+			},
+			"6": {
+				"name": "Bone_1",
+				"parent": 5,
+				"position": [
+					0.619192,
+					-0.99118,
+					-0.920098
+				],
+				"rotation": [
+					115.363,
+					-43.9847,
+					-89.8702
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					7
+				]
+			},
+			"7": {
+				"name": "Bone.001_0",
+				"parent": 6,
+				"position": [
+					3.27852e-10,
+					1.44073,
+					2.00708e-08
+				],
+				"rotation": [
+					-46.8211,
+					59.1099,
+					4.5591
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"8": {
+				"name": "Object_7",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"farm_animals"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"9": {
+				"name": "chicken.001_2",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"10": {
+				"name": "Armature.001_7",
+				"parent": 2,
+				"position": [
+					-1.41955,
+					1.25722,
+					-0.553213
+				],
+				"rotation": [
+					180,
+					28.0335,
+					180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					11
+				]
+			},
+			"11": {
+				"name": "GLTF_created_1",
+				"parent": 10,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					12,
+					15,
+					16
+				]
+			},
+			"12": {
+				"name": "GLTF_created_1_rootJoint",
+				"parent": 11,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					13
+				]
+			},
+			"13": {
+				"name": "Bone_5",
+				"parent": 12,
+				"position": [
+					1.14817,
+					-0.99118,
+					-0.456029
+				],
+				"rotation": [
+					175.821,
+					-56.4906,
+					-110.12
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					14
+				]
+			},
+			"14": {
+				"name": "Bone.001_4",
+				"parent": 13,
+				"position": [
+					7.09081e-08,
+					1.18138,
+					-7.31706e-08
+				],
+				"rotation": [
+					-56.3782,
+					33.166,
+					3.20592
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"15": {
+				"name": "Object_14",
+				"parent": 11,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"farm_animals"
+						],
+						"rootBone": 12
+					}
+				}
+			},
+			"16": {
+				"name": "chicken.002_6",
+				"parent": 11,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"17": {
+				"name": "Armature.002_11",
+				"parent": 2,
+				"position": [
+					1.1011,
+					1.25722,
+					1.39379
+				],
+				"rotation": [
+					0,
+					20.7371,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					18
+				]
+			},
+			"18": {
+				"name": "GLTF_created_2",
+				"parent": 17,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					19,
+					22,
+					23
+				]
+			},
+			"19": {
+				"name": "GLTF_created_2_rootJoint",
+				"parent": 18,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					20
+				]
+			},
+			"20": {
+				"name": "Bone_9",
+				"parent": 19,
+				"position": [
+					1.22778,
+					-0.99118,
+					0.137099
+				],
+				"rotation": [
+					-148.828,
+					-40.2942,
+					-137.185
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					21
+				]
+			},
+			"21": {
+				"name": "Bone.001_8",
+				"parent": 20,
+				"position": [
+					-3.82046e-11,
+					1.18138,
+					-2.82695e-08
+				],
+				"rotation": [
+					-55.3297,
+					33.3229,
+					2.98884
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"22": {
+				"name": "Object_21",
+				"parent": 18,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"farm_animals"
+						],
+						"rootBone": 19
+					}
+				}
+			},
+			"23": {
+				"name": "chicken_10",
+				"parent": 18,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			}
+		}
+	}
+}

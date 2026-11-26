@@ -1,0 +1,412 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Gyroid_Gyroid_Material_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 992,
+					"triangles": 1096,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Gyroid_Material"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Gyroid.fbx",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "Object_2",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3
+				]
+			},
+			"3": {
+				"name": "RootNode",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					4,
+					5
+				]
+			},
+			"4": {
+				"name": "Gyroid",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"5": {
+				"name": "Armature",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+					6
+				]
+			},
+			"6": {
+				"name": "Object_6",
+				"parent": 5,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					7,
+					14,
+					15
+				]
+			},
+			"7": {
+				"name": "_rootJoint",
+				"parent": 6,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					8
+				]
+			},
+			"8": {
+				"name": "Base_00",
+				"parent": 7,
+				"position": [
+					0,
+					0,
+					-1.00822
+				],
+				"rotation": [
+					90,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					9
+				]
+			},
+			"9": {
+				"name": "Body_01",
+				"parent": 8,
+				"position": [
+					0,
+					1.10937,
+					0
+				],
+				"rotation": [
+					-1.77677,
+					0,
+					10
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					10,
+					12
+				]
+			},
+			"10": {
+				"name": "Arm_R_02",
+				"parent": 9,
+				"position": [
+					-0.921663,
+					0.114967,
+					1.31549e-08
+				],
+				"rotation": [
+					9.82492e-07,
+					2.29472e-05,
+					-90
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					11
+				]
+			},
+			"11": {
+				"name": "Arm_R_end_04",
+				"parent": 10,
+				"position": [
+					0,
+					0.355835,
+					-4.33681e-19
+				],
+				"rotation": [
+					9.62822e-17,
+					1.98785e-16,
+					9.37035e-16
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"12": {
+				"name": "Arm_L_03",
+				"parent": 9,
+				"position": [
+					0.921663,
+					0.114967,
+					1.35042e-08
+				],
+				"rotation": [
+					9.95845e-07,
+					-2.29405e-05,
+					90
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					13
+				]
+			},
+			"13": {
+				"name": "Arm_L_end_05",
+				"parent": 12,
+				"position": [
+					2.77556e-17,
+					0.355835,
+					1.30104e-18
+				],
+				"rotation": [
+					6.51288e-18,
+					0,
+					1.66542e-15
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"14": {
+				"name": "Object_9",
+				"parent": 6,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Gyroid_Material"
+						],
+						"rootBone": 7
+					}
+				}
+			},
+			"15": {
+				"name": "Object_8",
+				"parent": 6,
+				"position": [
+					0,
+					-3.8147e-06,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			}
+		}
+	}
+}

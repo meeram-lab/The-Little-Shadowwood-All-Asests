@@ -1,0 +1,151 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Object_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 7888,
+					"triangles": 4256,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Material"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "root",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "GLTF_SceneRootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3
+				]
+			},
+			"3": {
+				"name": "Cube_0",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "Object_4",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Material"
+						]
+					}
+				}
+			}
+		}
+	}
+}

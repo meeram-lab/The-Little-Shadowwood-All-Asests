@@ -1,0 +1,363 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Cylinder003_tex_001_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 1297,
+					"triangles": 1624,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane003_tex_002_0",
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 20,
+					"triangles": 24,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1,
+						"TEXCOORD_2": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane004_tex_002_0",
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 20,
+					"triangles": 24,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1,
+						"TEXCOORD_2": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"tex_001",
+				"tex_002"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					5.96838,
+					1.60308,
+					-0.599121
+				],
+				"rotation": [
+					-86.9152,
+					-22.0004,
+					4.89925
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Log_001.FBX",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "RootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3,
+					6,
+					9
+				]
+			},
+			"3": {
+				"name": "Cylinder003",
+				"parent": 2,
+				"position": [
+					-4.37195,
+					24.9823,
+					-0.310379
+				],
+				"rotation": [
+					2.50448e-06,
+					2.48078e-15,
+					-45
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "Object_4",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					-50
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					5
+				]
+			},
+			"5": {
+				"name": "Cylinder003_tex_001_0",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"tex_001"
+						]
+					}
+				}
+			},
+			"6": {
+				"name": "Plane003",
+				"parent": 2,
+				"position": [
+					17.9087,
+					45.7877,
+					13.0844
+				],
+				"rotation": [
+					-22.6856,
+					-20.0741,
+					-41.1277
+				],
+				"scale": [
+					0.287621,
+					0.287621,
+					0.287621
+				],
+				"scaleCompensation": false,
+				"children": [
+					7
+				]
+			},
+			"7": {
+				"name": "Object_7",
+				"parent": 6,
+				"position": [
+					-4.76837e-07,
+					25,
+					2.29032
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					8
+				]
+			},
+			"8": {
+				"name": "Plane003_tex_002_0",
+				"parent": 7,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"tex_002"
+						]
+					}
+				}
+			},
+			"9": {
+				"name": "Plane004",
+				"parent": 2,
+				"position": [
+					19.4996,
+					44.7054,
+					14.8247
+				],
+				"rotation": [
+					-13.0328,
+					-20.8735,
+					-63.0334
+				],
+				"scale": [
+					0.191352,
+					0.191352,
+					0.191352
+				],
+				"scaleCompensation": false,
+				"children": [
+					10
+				]
+			},
+			"10": {
+				"name": "Object_10",
+				"parent": 9,
+				"position": [
+					-4.76837e-07,
+					25,
+					2.29032
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					11
+				]
+			},
+			"11": {
+				"name": "Plane004_tex_002_0",
+				"parent": 10,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"tex_002"
+						]
+					}
+				}
+			}
+		}
+	}
+}

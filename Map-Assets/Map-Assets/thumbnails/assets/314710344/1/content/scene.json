@@ -1,0 +1,104 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Object_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 9171,
+					"triangles": 15008,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"color_6383466"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-180,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "tinker.obj.cleaner.materialmerger.gles",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "Object_2",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"color_6383466"
+						]
+					}
+				}
+			}
+		}
+	}
+}
