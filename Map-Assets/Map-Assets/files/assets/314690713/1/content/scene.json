@@ -1,0 +1,1497 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Object_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 712,
+					"triangles": 1278,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_1",
+					"index": 1,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 422,
+					"triangles": 648,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_2",
+					"index": 2,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 112,
+					"triangles": 144,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_3",
+					"index": 3,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 43,
+					"triangles": 60,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_4",
+					"index": 4,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 36,
+					"triangles": 44,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_5",
+					"index": 5,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 8,
+					"triangles": 4,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_6",
+					"index": 6,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 146,
+					"triangles": 272,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Main",
+				"Main_Light",
+				"Hooves",
+				"Muzzle",
+				"Eye_Black",
+				"Eye_White",
+				"Horns"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "root",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "GLTF_SceneRootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3
+				]
+			},
+			"3": {
+				"name": "AnimalArmature_43",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "GLTF_created_0",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					5,
+					48,
+					49,
+					50,
+					51,
+					52,
+					53,
+					54,
+					55
+				]
+			},
+			"5": {
+				"name": "GLTF_created_0_rootJoint",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					6,
+					40,
+					42,
+					44,
+					46
+				]
+			},
+			"6": {
+				"name": "Body_33",
+				"parent": 5,
+				"position": [
+					0,
+					0.91207,
+					0.00174895
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					7,
+					36,
+					37,
+					38,
+					39
+				]
+			},
+			"7": {
+				"name": "Back_28",
+				"parent": 6,
+				"position": [
+					7.98614e-09,
+					3.06385,
+					-2.29415
+				],
+				"rotation": [
+					111.851,
+					4.42567e-05,
+					-0.000109967
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					8,
+					21,
+					25,
+					29
+				]
+			},
+			"8": {
+				"name": "Torso_12",
+				"parent": 7,
+				"position": [
+					1.32339e-13,
+					0.771304,
+					5.96046e-08
+				],
+				"rotation": [
+					177.585,
+					0.00014503,
+					180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					9
+				]
+			},
+			"9": {
+				"name": "Torso2_11",
+				"parent": 8,
+				"position": [
+					7.78044e-13,
+					1.62032,
+					-1.3411e-07
+				],
+				"rotation": [
+					23.711,
+					-0.0025197,
+					-0.00122231
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					10,
+					15,
+					18
+				]
+			},
+			"10": {
+				"name": "Torso3_4",
+				"parent": 9,
+				"position": [
+					9.26603e-12,
+					0.93028,
+					9.87202e-08
+				],
+				"rotation": [
+					2.33802,
+					0.00276721,
+					-1.18344e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					11
+				]
+			},
+			"11": {
+				"name": "Neck1_3",
+				"parent": 10,
+				"position": [
+					1.74971e-12,
+					1.05534,
+					1.86264e-08
+				],
+				"rotation": [
+					27.5961,
+					0.000197071,
+					-4.02469e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					12
+				]
+			},
+			"12": {
+				"name": "Neck2_2",
+				"parent": 11,
+				"position": [
+					-3.69482e-13,
+					0.599936,
+					-1.19209e-07
+				],
+				"rotation": [
+					-12.4576,
+					2.34381e-06,
+					1.89689e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					13
+				]
+			},
+			"13": {
+				"name": "Neck3_1",
+				"parent": 12,
+				"position": [
+					6.75016e-14,
+					0.723457,
+					-5.06262e-14
+				],
+				"rotation": [
+					1.87391,
+					0.00141676,
+					4.39926e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					14
+				]
+			},
+			"14": {
+				"name": "Head_0",
+				"parent": 13,
+				"position": [
+					2.55795e-13,
+					0.932208,
+					-2.38418e-07
+				],
+				"rotation": [
+					-62.2604,
+					-0.00136738,
+					6.84225e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"15": {
+				"name": "FrontShoulder.L_7",
+				"parent": 9,
+				"position": [
+					-0.413474,
+					2.03085,
+					-0.468826
+				],
+				"rotation": [
+					85.7547,
+					82.4754,
+					175.791
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					16
+				]
+			},
+			"16": {
+				"name": "FrontUpperLeg.L_6",
+				"parent": 15,
+				"position": [
+					-1.43689e-07,
+					0.199726,
+					9.08516e-09
+				],
+				"rotation": [
+					176.445,
+					-1.26999e-05,
+					82.4989
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					17
+				]
+			},
+			"17": {
+				"name": "FrontLowerLeg.L_5",
+				"parent": 16,
+				"position": [
+					5.31202e-09,
+					1.38466,
+					-2.39388e-07
+				],
+				"rotation": [
+					169.608,
+					0.000250432,
+					180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"18": {
+				"name": "FrontShoulder.R_10",
+				"parent": 9,
+				"position": [
+					0.413424,
+					2.03085,
+					-0.46887
+				],
+				"rotation": [
+					85.7512,
+					-82.4815,
+					-175.788
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					19
+				]
+			},
+			"19": {
+				"name": "FrontUpperLeg.R_9",
+				"parent": 18,
+				"position": [
+					6.03096e-09,
+					0.199726,
+					1.00252e-07
+				],
+				"rotation": [
+					176.445,
+					8.64446e-06,
+					-82.4989
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					20
+				]
+			},
+			"20": {
+				"name": "FrontLowerLeg.R_8",
+				"parent": 19,
+				"position": [
+					-5.52867e-08,
+					1.38466,
+					1.19854e-08
+				],
+				"rotation": [
+					169.608,
+					-0.000250438,
+					-180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"21": {
+				"name": "BackShoulder.L_16",
+				"parent": 7,
+				"position": [
+					0.239788,
+					0.623353,
+					0.629038
+				],
+				"rotation": [
+					-168.891,
+					-67.7093,
+					78.0187
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					22
+				]
+			},
+			"22": {
+				"name": "BackLeg.L_15",
+				"parent": 21,
+				"position": [
+					1.26608e-07,
+					0.331133,
+					-1.74589e-08
+				],
+				"rotation": [
+					162.788,
+					-6.4033e-05,
+					85.4839
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					23
+				]
+			},
+			"23": {
+				"name": "BackUpperLeg.L_14",
+				"parent": 22,
+				"position": [
+					9.17964e-09,
+					1.03018,
+					6.5892e-08
+				],
+				"rotation": [
+					62.7771,
+					-3.20762e-05,
+					1.41931e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					24
+				]
+			},
+			"24": {
+				"name": "BackLowerLeg.L_13",
+				"parent": 23,
+				"position": [
+					2.01995e-08,
+					1.25237,
+					2.66901e-07
+				],
+				"rotation": [
+					-126.399,
+					8.33896e-05,
+					-180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"25": {
+				"name": "BackShoulder.R_20",
+				"parent": 7,
+				"position": [
+					-0.239785,
+					0.623353,
+					0.629039
+				],
+				"rotation": [
+					-168.892,
+					67.7093,
+					-78.0193
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					26
+				]
+			},
+			"26": {
+				"name": "BackLeg.R_19",
+				"parent": 25,
+				"position": [
+					1.41431e-07,
+					0.331133,
+					7.44294e-08
+				],
+				"rotation": [
+					162.788,
+					7.76934e-05,
+					-85.4839
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					27
+				]
+			},
+			"27": {
+				"name": "BackUpperLeg.R_18",
+				"parent": 26,
+				"position": [
+					6.75431e-08,
+					1.03018,
+					-1.80576e-08
+				],
+				"rotation": [
+					62.7772,
+					3.49983e-05,
+					-9.3097e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					28
+				]
+			},
+			"28": {
+				"name": "BackLowerLeg.R_17",
+				"parent": 27,
+				"position": [
+					8.60122e-09,
+					1.25237,
+					4.92221e-08
+				],
+				"rotation": [
+					-126.399,
+					-8.2656e-05,
+					180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"29": {
+				"name": "Tail1_27",
+				"parent": 7,
+				"position": [
+					5.93303e-13,
+					2.38419e-07,
+					2.98023e-07
+				],
+				"rotation": [
+					-172.852,
+					0.000131967,
+					8.5733e-07
+				],
+				"scale": [
+					1,
+					1,
+					1.00001
+				],
+				"scaleCompensation": false,
+				"children": [
+					30
+				]
+			},
+			"30": {
+				"name": "Tail2_26",
+				"parent": 29,
+				"position": [
+					-2.04281e-14,
+					0.310097,
+					-2.38419e-07
+				],
+				"rotation": [
+					-65.3891,
+					5.53106e-06,
+					9.42422e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					31
+				]
+			},
+			"31": {
+				"name": "Tail3_25",
+				"parent": 30,
+				"position": [
+					-5.32907e-14,
+					0.273827,
+					-3.55271e-15
+				],
+				"rotation": [
+					-34.9349,
+					1.27352e-05,
+					2.27108e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					32
+				]
+			},
+			"32": {
+				"name": "Tail4_24",
+				"parent": 31,
+				"position": [
+					3.55271e-15,
+					0.426949,
+					0
+				],
+				"rotation": [
+					-22.8263,
+					1.29717e-05,
+					-6.418e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					33
+				]
+			},
+			"33": {
+				"name": "Tail5_23",
+				"parent": 32,
+				"position": [
+					2.4869e-14,
+					0.311854,
+					-5.96046e-08
+				],
+				"rotation": [
+					2.22933,
+					-1.43717e-05,
+					6.81403e-07
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					34
+				]
+			},
+			"34": {
+				"name": "Tail6_22",
+				"parent": 33,
+				"position": [
+					5.32907e-15,
+					0.345664,
+					3.72529e-08
+				],
+				"rotation": [
+					3.85216,
+					-8.2016e-07,
+					7.75188e-07
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					35
+				]
+			},
+			"35": {
+				"name": "Tail7_21",
+				"parent": 34,
+				"position": [
+					-1.77636e-15,
+					0.488679,
+					-6.70552e-08
+				],
+				"rotation": [
+					1.70274,
+					-1.0948e-06,
+					1.09112e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"36": {
+				"name": "PoleTargetBack.L_29",
+				"parent": 6,
+				"position": [
+					0.610974,
+					-0.0110445,
+					5.20522
+				],
+				"rotation": [
+					0,
+					1.36604e-05,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"37": {
+				"name": "PoleTarget.L_30",
+				"parent": 6,
+				"position": [
+					0.611466,
+					-0.0072723,
+					4.64911
+				],
+				"rotation": [
+					0,
+					1.36604e-05,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"38": {
+				"name": "PoleTargetBack.R_31",
+				"parent": 6,
+				"position": [
+					-0.610974,
+					-0.0110445,
+					5.20522
+				],
+				"rotation": [
+					0,
+					-1.36604e-05,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"39": {
+				"name": "PoleTarget.R_32",
+				"parent": 6,
+				"position": [
+					-0.611466,
+					-0.0072723,
+					4.64911
+				],
+				"rotation": [
+					0,
+					-1.36604e-05,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"40": {
+				"name": "IKBackLeg.L_35",
+				"parent": 5,
+				"position": [
+					0.569892,
+					0.39357,
+					-2.40586
+				],
+				"rotation": [
+					158.46,
+					3.47309e-05,
+					-1.37091e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					41
+				]
+			},
+			"41": {
+				"name": "FFB.L_34",
+				"parent": 40,
+				"position": [
+					-6.71566e-09,
+					0.269113,
+					-3.15509e-07
+				],
+				"rotation": [
+					177.709,
+					2.22725e-05,
+					180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"42": {
+				"name": "IKFrontLeg.L_37",
+				"parent": 5,
+				"position": [
+					0.611466,
+					0.39357,
+					1.91859
+				],
+				"rotation": [
+					158.46,
+					3.47309e-05,
+					-1.37091e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					43
+				]
+			},
+			"43": {
+				"name": "FF.L_36",
+				"parent": 42,
+				"position": [
+					-5.45896e-09,
+					0.269113,
+					1.50254e-08
+				],
+				"rotation": [
+					177.709,
+					6.32128e-05,
+					180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"44": {
+				"name": "IKBackLeg.R_39",
+				"parent": 5,
+				"position": [
+					-0.569892,
+					0.39357,
+					-2.40586
+				],
+				"rotation": [
+					158.46,
+					-3.47309e-05,
+					1.37091e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					45
+				]
+			},
+			"45": {
+				"name": "FFB.R_38",
+				"parent": 44,
+				"position": [
+					6.71566e-09,
+					0.269113,
+					-3.15509e-07
+				],
+				"rotation": [
+					177.709,
+					-2.22725e-05,
+					-180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"46": {
+				"name": "IKFrontLeg.R_41",
+				"parent": 5,
+				"position": [
+					-0.611466,
+					0.39357,
+					1.91859
+				],
+				"rotation": [
+					158.46,
+					-3.47309e-05,
+					1.37091e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					47
+				]
+			},
+			"47": {
+				"name": "FF.R_40",
+				"parent": 46,
+				"position": [
+					5.45896e-09,
+					0.269113,
+					1.50254e-08
+				],
+				"rotation": [
+					177.709,
+					-6.32128e-05,
+					-180
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"48": {
+				"name": "Object_7",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Main"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"49": {
+				"name": "Object_8",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"Main_Light"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"50": {
+				"name": "Object_9",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"Hooves"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"51": {
+				"name": "Object_10",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 3,
+						"materials": [
+							"Muzzle"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"52": {
+				"name": "Object_11",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 4,
+						"materials": [
+							"Eye_Black"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"53": {
+				"name": "Object_12",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 5,
+						"materials": [
+							"Eye_White"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"54": {
+				"name": "Object_13",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 6,
+						"materials": [
+							"Horns"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"55": {
+				"name": "Cow_42",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			}
+		}
+	}
+}

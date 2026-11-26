@@ -1,0 +1,937 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Cherries_Cherry_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 69,
+					"triangles": 70,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cylinder_Wood_0",
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 52,
+					"triangles": 60,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cylinder.001_Wood_0",
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 52,
+					"triangles": 60,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cylinder.002_Wood_0",
+					"index": 3,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 52,
+					"triangles": 60,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere.001_Leaves_0",
+					"index": 4,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 559,
+					"triangles": 960,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere.001_Cherry_0",
+					"index": 5,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 9453,
+					"triangles": 9590,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere_Leaves_0",
+					"index": 6,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 559,
+					"triangles": 960,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere_Cherry_0",
+					"index": 7,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 9453,
+					"triangles": 9590,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere.002_Leaves_0",
+					"index": 8,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 559,
+					"triangles": 960,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere.002_Cherry_0",
+					"index": 9,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 9453,
+					"triangles": 9590,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere.003_Leaves_0",
+					"index": 10,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 559,
+					"triangles": 960,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere.003_Cherry_0",
+					"index": 11,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 9453,
+					"triangles": 9590,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Cherry",
+				"Wood",
+				"Leaves"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "e17636231d7c4c4fa32622313600acef.fbx",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "RootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					16
+				]
+			},
+			"3": {
+				"name": "Camera",
+				"parent": 2,
+				"position": [
+					735.889,
+					495.831,
+					692.579
+				],
+				"rotation": [
+					-157.231,
+					37.8917,
+					-145.652
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "Object_4",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"5": {
+				"name": "Cherries",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					694.498
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+					6
+				]
+			},
+			"6": {
+				"name": "Cherries_Cherry_0",
+				"parent": 5,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Cherry"
+						]
+					}
+				}
+			},
+			"7": {
+				"name": "Cylinder",
+				"parent": 2,
+				"position": [
+					0,
+					-23.1673,
+					-52.6231
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					16.0909,
+					16.0909,
+					23.8125
+				],
+				"scaleCompensation": false,
+				"children": [
+					8
+				]
+			},
+			"8": {
+				"name": "Cylinder_Wood_0",
+				"parent": 7,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"Wood"
+						]
+					}
+				}
+			},
+			"9": {
+				"name": "Cylinder.001",
+				"parent": 2,
+				"position": [
+					0,
+					-21.2927,
+					148.661
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					16.0909,
+					16.0909,
+					20.3643
+				],
+				"scaleCompensation": false,
+				"children": [
+					10
+				]
+			},
+			"10": {
+				"name": "Cylinder.001_Wood_0",
+				"parent": 9,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"Wood"
+						]
+					}
+				}
+			},
+			"11": {
+				"name": "Cylinder.002",
+				"parent": 2,
+				"position": [
+					0,
+					-0.00143051,
+					-291.841
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					16.0909,
+					16.0909,
+					39.9072
+				],
+				"scaleCompensation": false,
+				"children": [
+					12
+				]
+			},
+			"12": {
+				"name": "Cylinder.002_Wood_0",
+				"parent": 11,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 3,
+						"materials": [
+							"Wood"
+						]
+					}
+				}
+			},
+			"13": {
+				"name": "Light",
+				"parent": 2,
+				"position": [
+					407.625,
+					590.386,
+					-100.545
+				],
+				"rotation": [
+					-132.466,
+					72.7792,
+					-169.256
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+					14
+				]
+			},
+			"14": {
+				"name": "Object_14",
+				"parent": 13,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					15
+				]
+			},
+			"15": {
+				"name": "Object_15",
+				"parent": 14,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"16": {
+				"name": "Sphere.001",
+				"parent": 2,
+				"position": [
+					-14.959,
+					245.887,
+					-159.717
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					267.373,
+					267.373,
+					267.373
+				],
+				"scaleCompensation": false,
+				"children": [
+					17,
+					18,
+					19,
+					22,
+					25
+				]
+			},
+			"17": {
+				"name": "Sphere.001_Leaves_0",
+				"parent": 16,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 4,
+						"materials": [
+							"Leaves"
+						]
+					}
+				}
+			},
+			"18": {
+				"name": "Sphere.001_Cherry_0",
+				"parent": 16,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 5,
+						"materials": [
+							"Cherry"
+						]
+					}
+				}
+			},
+			"19": {
+				"name": "Sphere",
+				"parent": 16,
+				"position": [
+					0,
+					-0.840832,
+					-0.235252
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					0.807955,
+					0.807955,
+					0.807955
+				],
+				"scaleCompensation": false,
+				"children": [
+					20,
+					21
+				]
+			},
+			"20": {
+				"name": "Sphere_Leaves_0",
+				"parent": 19,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 6,
+						"materials": [
+							"Leaves"
+						]
+					}
+				}
+			},
+			"21": {
+				"name": "Sphere_Cherry_0",
+				"parent": 19,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 7,
+						"materials": [
+							"Cherry"
+						]
+					}
+				}
+			},
+			"22": {
+				"name": "Sphere.002",
+				"parent": 16,
+				"position": [
+					0,
+					-1.41936,
+					-0.750409
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					0.347571,
+					0.347571,
+					0.347571
+				],
+				"scaleCompensation": false,
+				"children": [
+					23,
+					24
+				]
+			},
+			"23": {
+				"name": "Sphere.002_Leaves_0",
+				"parent": 22,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 8,
+						"materials": [
+							"Leaves"
+						]
+					}
+				}
+			},
+			"24": {
+				"name": "Sphere.002_Cherry_0",
+				"parent": 22,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 9,
+						"materials": [
+							"Cherry"
+						]
+					}
+				}
+			},
+			"25": {
+				"name": "Sphere.003",
+				"parent": 16,
+				"position": [
+					0,
+					0.839016,
+					-0.479685
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					0.537031,
+					0.537031,
+					0.537031
+				],
+				"scaleCompensation": false,
+				"children": [
+					26,
+					27
+				]
+			},
+			"26": {
+				"name": "Sphere.003_Leaves_0",
+				"parent": 25,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 10,
+						"materials": [
+							"Leaves"
+						]
+					}
+				}
+			},
+			"27": {
+				"name": "Sphere.003_Cherry_0",
+				"parent": 25,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 11,
+						"materials": [
+							"Cherry"
+						]
+					}
+				}
+			}
+		}
+	}
+}
