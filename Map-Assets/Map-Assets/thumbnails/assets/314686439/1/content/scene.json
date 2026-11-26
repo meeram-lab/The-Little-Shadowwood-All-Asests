@@ -1,0 +1,1955 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Object_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 5806,
+					"triangles": 2932,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_1",
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 4,
+					"triangles": 2,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_2",
+					"index": 2,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 23231,
+					"triangles": 11652,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_3",
+					"index": 3,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 65534,
+					"triangles": 32955,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_4",
+					"index": 4,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 27307,
+					"triangles": 13653,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_5",
+					"index": 5,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 65534,
+					"triangles": 32955,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Object_6",
+					"index": 6,
+					"meshes": 1,
+					"skinned": true,
+					"vertices": 27307,
+					"triangles": 13653,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"BONEINDICES": 1,
+						"BONEWEIGHTS": 1,
+						"TEXCOORD_0": 1,
+						"TEXCOORD_1": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Material",
+				"material_0"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-1.62306e-14,
+					-180
+				],
+				"scale": [
+					0.387893,
+					0.387893,
+					0.387893
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "root",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "GLTF_SceneRootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3,
+					20,
+					22,
+					39,
+					57
+				]
+			},
+			"3": {
+				"name": "Esqueleto_16",
+				"parent": 2,
+				"position": [
+					5.56822,
+					1.32004,
+					0.669652
+				],
+				"rotation": [
+					-68.2046,
+					-0,
+					0
+				],
+				"scale": [
+					2.16809,
+					2.16809,
+					2.16809
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "GLTF_created_0",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					5,
+					18,
+					19
+				]
+			},
+			"5": {
+				"name": "GLTF_created_0_rootJoint",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					6,
+					8,
+					10,
+					12,
+					14
+				]
+			},
+			"6": {
+				"name": "L.Ala_4",
+				"parent": 5,
+				"position": [
+					-0.398691,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					-10.0697,
+					-13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					7
+				]
+			},
+			"7": {
+				"name": "L.Alas_3",
+				"parent": 6,
+				"position": [
+					5.11239e-08,
+					0.460741,
+					-2.60451e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					-6.6768e-06,
+					-10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"8": {
+				"name": "L.Rodilla_6",
+				"parent": 5,
+				"position": [
+					-0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					4.03007,
+					-1.55941
+				],
+				"scale": [
+					1,
+					0.999999,
+					0.999999
+				],
+				"scaleCompensation": false,
+				"children": [
+					9
+				]
+			},
+			"9": {
+				"name": "L.Pata_5",
+				"parent": 8,
+				"position": [
+					-7.12019e-10,
+					0.114239,
+					-2.33558e-08
+				],
+				"rotation": [
+					50.5976,
+					-0.175815,
+					0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"10": {
+				"name": "R.Ala_8",
+				"parent": 5,
+				"position": [
+					0.398692,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					10.0697,
+					13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					11
+				]
+			},
+			"11": {
+				"name": "R.Alas_7",
+				"parent": 10,
+				"position": [
+					-5.11239e-08,
+					0.460741,
+					-4.09463e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					6.6768e-06,
+					10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"12": {
+				"name": "R.Rodilla_10",
+				"parent": 5,
+				"position": [
+					0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					-4.03007,
+					1.55941
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					13
+				]
+			},
+			"13": {
+				"name": "R.Pata_9",
+				"parent": 12,
+				"position": [
+					-6.75197e-09,
+					0.114239,
+					-1.86036e-08
+				],
+				"rotation": [
+					50.5976,
+					0.175815,
+					-0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"14": {
+				"name": "cuerpocola_14",
+				"parent": 5,
+				"position": [
+					0.0017631,
+					-0.1853,
+					0.133078
+				],
+				"rotation": [
+					-8.05575,
+					1.35256e-05,
+					-1.91432e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					15
+				]
+			},
+			"15": {
+				"name": "cuerpo_13",
+				"parent": 14,
+				"position": [
+					2.70762e-10,
+					0.528035,
+					-2.90602e-08
+				],
+				"rotation": [
+					-37.3769,
+					-2.80503e-06,
+					-8.29261e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					16
+				]
+			},
+			"16": {
+				"name": "cuello_12",
+				"parent": 15,
+				"position": [
+					2.35914e-10,
+					0.538022,
+					1.51858e-08
+				],
+				"rotation": [
+					102.985,
+					-2.26378e-05,
+					2.61031e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					17
+				]
+			},
+			"17": {
+				"name": "cabeza_11",
+				"parent": 16,
+				"position": [
+					-2.38334e-10,
+					0.510582,
+					-4.38628e-08
+				],
+				"rotation": [
+					0.660613,
+					-1.80945e-09,
+					3.14998e-07
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"18": {
+				"name": "Object_7",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Material"
+						],
+						"rootBone": 5
+					}
+				}
+			},
+			"19": {
+				"name": "Cube_15",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"20": {
+				"name": "Plano_17",
+				"parent": 2,
+				"position": [
+					0.255423,
+					0.00534747,
+					0.0566958
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					18.1806,
+					18.1806,
+					18.1806
+				],
+				"scaleCompensation": false,
+				"children": [
+					21
+				]
+			},
+			"21": {
+				"name": "Object_21",
+				"parent": 20,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"material_0"
+						]
+					}
+				}
+			},
+			"22": {
+				"name": "Esqueleto.001_31",
+				"parent": 2,
+				"position": [
+					2.02746,
+					1.32004,
+					0.669652
+				],
+				"rotation": [
+					-68.2046,
+					-0,
+					0
+				],
+				"scale": [
+					2.16809,
+					2.16809,
+					2.16809
+				],
+				"scaleCompensation": false,
+				"children": [
+					23
+				]
+			},
+			"23": {
+				"name": "GLTF_created_1",
+				"parent": 22,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					24,
+					37,
+					38
+				]
+			},
+			"24": {
+				"name": "GLTF_created_1_rootJoint",
+				"parent": 23,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					25,
+					27,
+					29,
+					31,
+					33
+				]
+			},
+			"25": {
+				"name": "L.Ala_19",
+				"parent": 24,
+				"position": [
+					-0.398692,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					-10.0697,
+					-13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					26
+				]
+			},
+			"26": {
+				"name": "L.Alas_18",
+				"parent": 25,
+				"position": [
+					5.37608e-08,
+					0.460741,
+					-4.09463e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					-6.6768e-06,
+					-10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"27": {
+				"name": "L.Rodilla_21",
+				"parent": 24,
+				"position": [
+					-0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					4.03007,
+					-1.55941
+				],
+				"scale": [
+					1,
+					0.999999,
+					0.999999
+				],
+				"scaleCompensation": false,
+				"children": [
+					28
+				]
+			},
+			"28": {
+				"name": "L.Pata_20",
+				"parent": 27,
+				"position": [
+					-7.12019e-10,
+					0.114239,
+					-2.33558e-08
+				],
+				"rotation": [
+					50.5976,
+					-0.175815,
+					0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"29": {
+				"name": "R.Ala_23",
+				"parent": 24,
+				"position": [
+					0.398691,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					10.0697,
+					13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					30
+				]
+			},
+			"30": {
+				"name": "R.Alas_22",
+				"parent": 29,
+				"position": [
+					-5.37608e-08,
+					0.460741,
+					-2.60451e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					6.6768e-06,
+					10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"31": {
+				"name": "R.Rodilla_25",
+				"parent": 24,
+				"position": [
+					0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					-4.03007,
+					1.55941
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					32
+				]
+			},
+			"32": {
+				"name": "R.Pata_24",
+				"parent": 31,
+				"position": [
+					-6.73844e-09,
+					0.114239,
+					-2.33329e-08
+				],
+				"rotation": [
+					50.5976,
+					0.175815,
+					-0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"33": {
+				"name": "cuerpocola_29",
+				"parent": 24,
+				"position": [
+					0.0017631,
+					-0.1853,
+					0.133078
+				],
+				"rotation": [
+					-8.05575,
+					1.35256e-05,
+					-1.91432e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					34
+				]
+			},
+			"34": {
+				"name": "cuerpo_28",
+				"parent": 33,
+				"position": [
+					2.70762e-10,
+					0.528035,
+					-2.90602e-08
+				],
+				"rotation": [
+					-37.3769,
+					-2.80503e-06,
+					-8.29261e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					35
+				]
+			},
+			"35": {
+				"name": "cuello_27",
+				"parent": 34,
+				"position": [
+					2.35914e-10,
+					0.538022,
+					1.51858e-08
+				],
+				"rotation": [
+					102.985,
+					-2.26378e-05,
+					2.61031e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					36
+				]
+			},
+			"36": {
+				"name": "cabeza_26",
+				"parent": 35,
+				"position": [
+					-2.38334e-10,
+					0.510582,
+					-4.38628e-08
+				],
+				"rotation": [
+					0.660613,
+					-1.80945e-09,
+					3.14998e-07
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"37": {
+				"name": "Object_26",
+				"parent": 23,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"Material"
+						],
+						"rootBone": 24
+					}
+				}
+			},
+			"38": {
+				"name": "Cube.001_30",
+				"parent": 23,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"39": {
+				"name": "Esqueleto.002_45",
+				"parent": 2,
+				"position": [
+					-1.92478,
+					1.32004,
+					0.669652
+				],
+				"rotation": [
+					-68.2046,
+					-0,
+					0
+				],
+				"scale": [
+					2.16809,
+					2.16809,
+					2.16809
+				],
+				"scaleCompensation": false,
+				"children": [
+					40
+				]
+			},
+			"40": {
+				"name": "GLTF_created_2",
+				"parent": 39,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					41,
+					54,
+					55,
+					56
+				]
+			},
+			"41": {
+				"name": "GLTF_created_2_rootJoint",
+				"parent": 40,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					42,
+					44,
+					46,
+					48,
+					50
+				]
+			},
+			"42": {
+				"name": "L.Ala_33",
+				"parent": 41,
+				"position": [
+					-0.398692,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					-10.0697,
+					-13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					43
+				]
+			},
+			"43": {
+				"name": "L.Alas_32",
+				"parent": 42,
+				"position": [
+					5.11239e-08,
+					0.460741,
+					-2.60451e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					-6.6768e-06,
+					-10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"44": {
+				"name": "L.Rodilla_35",
+				"parent": 41,
+				"position": [
+					-0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					4.03007,
+					-1.55941
+				],
+				"scale": [
+					1,
+					0.999999,
+					0.999999
+				],
+				"scaleCompensation": false,
+				"children": [
+					45
+				]
+			},
+			"45": {
+				"name": "L.Pata_34",
+				"parent": 44,
+				"position": [
+					-7.12019e-10,
+					0.114239,
+					-2.33558e-08
+				],
+				"rotation": [
+					50.5976,
+					-0.175815,
+					0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"46": {
+				"name": "R.Ala_37",
+				"parent": 41,
+				"position": [
+					0.398692,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					10.0697,
+					13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					47
+				]
+			},
+			"47": {
+				"name": "R.Alas_36",
+				"parent": 46,
+				"position": [
+					-5.11239e-08,
+					0.460741,
+					-4.09463e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					6.6768e-06,
+					10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"48": {
+				"name": "R.Rodilla_39",
+				"parent": 41,
+				"position": [
+					0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					-4.03007,
+					1.55941
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					49
+				]
+			},
+			"49": {
+				"name": "R.Pata_38",
+				"parent": 48,
+				"position": [
+					-6.73844e-09,
+					0.114239,
+					-2.33329e-08
+				],
+				"rotation": [
+					50.5976,
+					0.175815,
+					-0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"50": {
+				"name": "cuerpocola_43",
+				"parent": 41,
+				"position": [
+					0.0017631,
+					-0.1853,
+					0.133078
+				],
+				"rotation": [
+					-8.05575,
+					1.35256e-05,
+					-1.91432e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					51
+				]
+			},
+			"51": {
+				"name": "cuerpo_42",
+				"parent": 50,
+				"position": [
+					2.70762e-10,
+					0.528035,
+					-2.90602e-08
+				],
+				"rotation": [
+					-37.3769,
+					-2.80503e-06,
+					-8.29261e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					52
+				]
+			},
+			"52": {
+				"name": "cuello_41",
+				"parent": 51,
+				"position": [
+					2.35914e-10,
+					0.538022,
+					1.51858e-08
+				],
+				"rotation": [
+					102.985,
+					-2.26378e-05,
+					2.61031e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					53
+				]
+			},
+			"53": {
+				"name": "cabeza_40",
+				"parent": 52,
+				"position": [
+					-2.38334e-10,
+					0.510582,
+					-4.38628e-08
+				],
+				"rotation": [
+					0.660613,
+					-1.80945e-09,
+					3.14998e-07
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"54": {
+				"name": "Object_43",
+				"parent": 40,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 3,
+						"materials": [
+							"Material"
+						],
+						"rootBone": 41
+					}
+				}
+			},
+			"55": {
+				"name": "Object_44",
+				"parent": 40,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 4,
+						"materials": [
+							"Material"
+						],
+						"rootBone": 41
+					}
+				}
+			},
+			"56": {
+				"name": "Cube.002_44",
+				"parent": 40,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"57": {
+				"name": "Esqueleto.003_59",
+				"parent": 2,
+				"position": [
+					-5.77634,
+					1.32004,
+					0.669652
+				],
+				"rotation": [
+					-68.2046,
+					-0,
+					0
+				],
+				"scale": [
+					2.16809,
+					2.16809,
+					2.16809
+				],
+				"scaleCompensation": false,
+				"children": [
+					58
+				]
+			},
+			"58": {
+				"name": "GLTF_created_3",
+				"parent": 57,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					59,
+					72,
+					73,
+					74
+				]
+			},
+			"59": {
+				"name": "GLTF_created_3_rootJoint",
+				"parent": 58,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					60,
+					62,
+					64,
+					66,
+					68
+				]
+			},
+			"60": {
+				"name": "L.Ala_47",
+				"parent": 59,
+				"position": [
+					-0.398691,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					-10.0697,
+					-13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					61
+				]
+			},
+			"61": {
+				"name": "L.Alas_46",
+				"parent": 60,
+				"position": [
+					5.11239e-08,
+					0.460741,
+					-2.60451e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					-6.6768e-06,
+					-10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"62": {
+				"name": "L.Rodilla_49",
+				"parent": 59,
+				"position": [
+					-0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					4.03007,
+					-1.55941
+				],
+				"scale": [
+					1,
+					0.999999,
+					0.999999
+				],
+				"scaleCompensation": false,
+				"children": [
+					63
+				]
+			},
+			"63": {
+				"name": "L.Pata_48",
+				"parent": 62,
+				"position": [
+					-7.12019e-10,
+					0.114239,
+					-2.33558e-08
+				],
+				"rotation": [
+					50.5976,
+					-0.175815,
+					0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"64": {
+				"name": "R.Ala_51",
+				"parent": 59,
+				"position": [
+					0.398692,
+					0.641398,
+					-0.253197
+				],
+				"rotation": [
+					144.345,
+					10.0697,
+					13.6973
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					65
+				]
+			},
+			"65": {
+				"name": "R.Alas_50",
+				"parent": 64,
+				"position": [
+					-5.11239e-08,
+					0.460741,
+					-2.60451e-08
+				],
+				"rotation": [
+					-4.76413e-07,
+					6.6768e-06,
+					10.1927
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"66": {
+				"name": "R.Rodilla_53",
+				"parent": 59,
+				"position": [
+					0.121601,
+					0.181084,
+					-0.503225
+				],
+				"rotation": [
+					-139.489,
+					-4.03007,
+					1.55941
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					67
+				]
+			},
+			"67": {
+				"name": "R.Pata_52",
+				"parent": 66,
+				"position": [
+					-6.75197e-09,
+					0.114239,
+					-1.86036e-08
+				],
+				"rotation": [
+					50.5976,
+					0.175815,
+					-0.279048
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"68": {
+				"name": "cuerpocola_57",
+				"parent": 59,
+				"position": [
+					0.0017631,
+					-0.1853,
+					0.133078
+				],
+				"rotation": [
+					-8.05575,
+					1.35256e-05,
+					-1.91432e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					69
+				]
+			},
+			"69": {
+				"name": "cuerpo_56",
+				"parent": 68,
+				"position": [
+					2.70762e-10,
+					0.528035,
+					-2.90602e-08
+				],
+				"rotation": [
+					-37.3769,
+					-2.80503e-06,
+					-8.29261e-06
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					70
+				]
+			},
+			"70": {
+				"name": "cuello_55",
+				"parent": 69,
+				"position": [
+					2.35914e-10,
+					0.538022,
+					1.51858e-08
+				],
+				"rotation": [
+					102.985,
+					-2.26378e-05,
+					2.61031e-05
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					71
+				]
+			},
+			"71": {
+				"name": "cabeza_54",
+				"parent": 70,
+				"position": [
+					-2.38334e-10,
+					0.510582,
+					-4.38628e-08
+				],
+				"rotation": [
+					0.660613,
+					-1.80945e-09,
+					3.14998e-07
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"72": {
+				"name": "Object_61",
+				"parent": 58,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 5,
+						"materials": [
+							"Material"
+						],
+						"rootBone": 59
+					}
+				}
+			},
+			"73": {
+				"name": "Object_62",
+				"parent": 58,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 6,
+						"materials": [
+							"Material"
+						],
+						"rootBone": 59
+					}
+				}
+			},
+			"74": {
+				"name": "Cube.003_58",
+				"parent": 58,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			}
+		}
+	}
+}
