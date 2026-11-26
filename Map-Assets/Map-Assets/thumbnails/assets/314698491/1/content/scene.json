@@ -1,0 +1,497 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Cube.057_Medieval_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 16726,
+					"triangles": 19472,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.067_Medieval_0",
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 43981,
+					"triangles": 38108,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cylinder.054_Medieval_0",
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 22132,
+					"triangles": 22490,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.056_COLLIDER_0",
+					"index": 3,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 733,
+					"triangles": 380,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cylinder.015_COLLIDER_0",
+					"index": 4,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 1856,
+					"triangles": 956,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.062_COLLIDER_0",
+					"index": 5,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 1017,
+					"triangles": 552,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Medieval",
+				"COLLIDER"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Pack_MarketStalls.fbx",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "RootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13
+				]
+			},
+			"3": {
+				"name": "Cube.057",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					300
+				],
+				"rotation": [
+					-90,
+					84.1547,
+					9.36903e-14
+				],
+				"scale": [
+					92.5937,
+					92.5937,
+					92.5937
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "Cube.057_Medieval_0",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Medieval"
+						]
+					}
+				}
+			},
+			"5": {
+				"name": "Cube.067",
+				"parent": 2,
+				"position": [
+					0,
+					-3.72529e-07,
+					5.96046e-06
+				],
+				"rotation": [
+					-90,
+					90,
+					-1.45525e-07
+				],
+				"scale": [
+					5.02879,
+					55.5658,
+					4.78233
+				],
+				"scaleCompensation": false,
+				"children": [
+					6
+				]
+			},
+			"6": {
+				"name": "Cube.067_Medieval_0",
+				"parent": 5,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"Medieval"
+						]
+					}
+				}
+			},
+			"7": {
+				"name": "Cylinder.054",
+				"parent": 2,
+				"position": [
+					0,
+					-2.98023e-06,
+					-300
+				],
+				"rotation": [
+					-87.5493,
+					-69.778,
+					-3.88215
+				],
+				"scale": [
+					9.16525,
+					9.16525,
+					9.16525
+				],
+				"scaleCompensation": false,
+				"children": [
+					8
+				]
+			},
+			"8": {
+				"name": "Cylinder.054_Medieval_0",
+				"parent": 7,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"Medieval"
+						]
+					}
+				}
+			},
+			"9": {
+				"name": "Cube.056",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					300
+				],
+				"rotation": [
+					-90,
+					90,
+					-1.45525e-07
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+					10
+				]
+			},
+			"10": {
+				"name": "Cube.056_COLLIDER_0",
+				"parent": 9,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 3,
+						"materials": [
+							"COLLIDER"
+						]
+					}
+				}
+			},
+			"11": {
+				"name": "Cylinder.015",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					2.50448e-06,
+					-0,
+					0
+				],
+				"scale": [
+					9.82481,
+					7.91915,
+					58.0869
+				],
+				"scaleCompensation": false,
+				"children": [
+					12
+				]
+			},
+			"12": {
+				"name": "Cylinder.015_COLLIDER_0",
+				"parent": 11,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 4,
+						"materials": [
+							"COLLIDER"
+						]
+					}
+				}
+			},
+			"13": {
+				"name": "Cube.062",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					-300
+				],
+				"rotation": [
+					-90,
+					90,
+					-1.45525e-07
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+					14
+				]
+			},
+			"14": {
+				"name": "Cube.062_COLLIDER_0",
+				"parent": 13,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 5,
+						"materials": [
+							"COLLIDER"
+						]
+					}
+				}
+			}
+		}
+	}
+}

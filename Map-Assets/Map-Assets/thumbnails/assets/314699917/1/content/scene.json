@@ -1,0 +1,464 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Cattails",
+					"index": 0,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 420,
+					"triangles": 200,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Duck_1",
+					"index": 1,
+					"meshes": 3,
+					"skinned": false,
+					"vertices": 209,
+					"triangles": 386,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Duck_2",
+					"index": 2,
+					"meshes": 3,
+					"skinned": false,
+					"vertices": 209,
+					"triangles": 386,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Ground",
+					"index": 3,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 1025,
+					"triangles": 512,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Jetty",
+					"index": 4,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 1224,
+					"triangles": 584,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "LilyPads",
+					"index": 5,
+					"meshes": 3,
+					"skinned": false,
+					"vertices": 1944,
+					"triangles": 864,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Reeds",
+					"index": 6,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 588,
+					"triangles": 196,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Stones",
+					"index": 7,
+					"meshes": 2,
+					"skinned": false,
+					"vertices": 192,
+					"triangles": 320,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Water",
+					"index": 8,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 736,
+					"triangles": 352,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"FoliageDark",
+				"WoodDark",
+				"Cream",
+				"PaintOrange",
+				"Rubber",
+				"Soil",
+				"Foliage",
+				"Wood",
+				"PaintPink",
+				"PetalYellow",
+				"Stone",
+				"StoneDark",
+				"Water"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "DuckPond",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
+			"1": {
+				"name": "Cattails",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"FoliageDark",
+							"WoodDark"
+						]
+					}
+				}
+			},
+			"2": {
+				"name": "Duck_1",
+				"parent": 0,
+				"position": [
+					-1.2,
+					0.37,
+					-1.6
+				],
+				"rotation": [
+					180,
+					-20,
+					180
+				],
+				"scale": [
+					1.4,
+					1.4,
+					1.4
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"Cream",
+							"PaintOrange",
+							"Rubber"
+						]
+					}
+				}
+			},
+			"3": {
+				"name": "Duck_2",
+				"parent": 0,
+				"position": [
+					2.6,
+					0.37,
+					1.9
+				],
+				"rotation": [
+					180,
+					40,
+					180
+				],
+				"scale": [
+					1.4,
+					1.4,
+					1.4
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"Cream",
+							"PaintOrange",
+							"Rubber"
+						]
+					}
+				}
+			},
+			"4": {
+				"name": "Ground",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 3,
+						"materials": [
+							"Soil",
+							"Foliage"
+						]
+					}
+				}
+			},
+			"5": {
+				"name": "Jetty",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 4,
+						"materials": [
+							"Wood",
+							"WoodDark"
+						]
+					}
+				}
+			},
+			"6": {
+				"name": "LilyPads",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 5,
+						"materials": [
+							"Foliage",
+							"PaintPink",
+							"PetalYellow"
+						]
+					}
+				}
+			},
+			"7": {
+				"name": "Reeds",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 6,
+						"materials": [
+							"Foliage",
+							"FoliageDark"
+						]
+					}
+				}
+			},
+			"8": {
+				"name": "Stones",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 7,
+						"materials": [
+							"Stone",
+							"StoneDark"
+						]
+					}
+				}
+			},
+			"9": {
+				"name": "Water",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 8,
+						"materials": [
+							"Water"
+						]
+					}
+				}
+			}
+		}
+	}
+}
