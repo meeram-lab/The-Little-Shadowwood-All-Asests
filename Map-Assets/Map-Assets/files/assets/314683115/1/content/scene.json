@@ -1,0 +1,1598 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Cube.011_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 4989,
+					"triangles": 4568,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.013_0",
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 3779,
+					"triangles": 1260,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.002_0",
+					"index": 2,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 1183,
+					"triangles": 612,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.000_0",
+					"index": 3,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2415,
+					"triangles": 1208,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.009_0",
+					"index": 4,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 10655,
+					"triangles": 3729,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.010_0",
+					"index": 5,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 17281,
+					"triangles": 8593,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Text.001_0",
+					"index": 6,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 9669,
+					"triangles": 4584,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.014_0",
+					"index": 7,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 16238,
+					"triangles": 10686,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.005_0",
+					"index": 8,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 4860,
+					"triangles": 2450,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane_0",
+					"index": 9,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 7593,
+					"triangles": 2688,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Sphere.001_0",
+					"index": 10,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 672,
+					"triangles": 224,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.001_0",
+					"index": 11,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 280,
+					"triangles": 140,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.000_0",
+					"index": 12,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 280,
+					"triangles": 140,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cube.002_0",
+					"index": 13,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 280,
+					"triangles": 140,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cylinder.000_0",
+					"index": 14,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 1510,
+					"triangles": 510,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Cylinder.001_0",
+					"index": 15,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 1510,
+					"triangles": 510,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.001_0",
+					"index": 16,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2860,
+					"triangles": 1004,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.003_0",
+					"index": 17,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2860,
+					"triangles": 1004,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.004_0",
+					"index": 18,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2860,
+					"triangles": 1004,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.008_0",
+					"index": 19,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 3038,
+					"triangles": 1242,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.006_0",
+					"index": 20,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 3038,
+					"triangles": 1242,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Plane.007_0",
+					"index": 21,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 3038,
+					"triangles": 1242,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"material_14",
+				"material_13",
+				"material_12",
+				"material_11",
+				"material_10",
+				"material_9",
+				"material_8",
+				"material_7",
+				"material_6",
+				"material_5",
+				"material_4",
+				"material_3",
+				"material_2",
+				"material_1",
+				"material"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Root",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20,
+					22,
+					24,
+					26,
+					28,
+					30,
+					32,
+					34,
+					36,
+					38,
+					40,
+					42,
+					44
+				]
+			},
+			"2": {
+				"name": "Cube.011",
+				"parent": 1,
+				"position": [
+					5.60733,
+					12.9885,
+					4.09819
+				],
+				"rotation": [
+					-1.16604,
+					0.451545,
+					47.0973
+				],
+				"scale": [
+					0.255048,
+					0.255045,
+					0.196947
+				],
+				"scaleCompensation": false,
+				"children": [
+					3
+				]
+			},
+			"3": {
+				"name": "Cube.011_0",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"material_14"
+						]
+					}
+				}
+			},
+			"4": {
+				"name": "Cube.013",
+				"parent": 1,
+				"position": [
+					0.85501,
+					18.169,
+					3.03972
+				],
+				"rotation": [
+					0,
+					-0,
+					90
+				],
+				"scale": [
+					0.95818,
+					0.95818,
+					0.95818
+				],
+				"scaleCompensation": false,
+				"children": [
+					5
+				]
+			},
+			"5": {
+				"name": "Cube.013_0",
+				"parent": 4,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"material_13"
+						]
+					}
+				}
+			},
+			"6": {
+				"name": "Plane.002",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0.39742
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					27.9714,
+					27.9714,
+					27.9714
+				],
+				"scaleCompensation": false,
+				"children": [
+					7
+				]
+			},
+			"7": {
+				"name": "Plane.002_0",
+				"parent": 6,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 2,
+						"materials": [
+							"material_12"
+						]
+					}
+				}
+			},
+			"8": {
+				"name": "Plane.000",
+				"parent": 1,
+				"position": [
+					5.07165,
+					23.4007,
+					11.7919
+				],
+				"rotation": [
+					-0.000269014,
+					29.8206,
+					66.0267
+				],
+				"scale": [
+					0.389293,
+					0.389291,
+					0.389289
+				],
+				"scaleCompensation": false,
+				"children": [
+					9
+				]
+			},
+			"9": {
+				"name": "Plane.000_0",
+				"parent": 8,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 3,
+						"materials": [
+							"material_11"
+						]
+					}
+				}
+			},
+			"10": {
+				"name": "Cube.009",
+				"parent": 1,
+				"position": [
+					15.0829,
+					-1.57198,
+					0.51421
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					11
+				]
+			},
+			"11": {
+				"name": "Cube.009_0",
+				"parent": 10,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 4,
+						"materials": [
+							"material_10"
+						]
+					}
+				}
+			},
+			"12": {
+				"name": "Cube.010",
+				"parent": 1,
+				"position": [
+					7.77095,
+					-1.57198,
+					0.33466
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					13
+				]
+			},
+			"13": {
+				"name": "Cube.010_0",
+				"parent": 12,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 5,
+						"materials": [
+							"material_9"
+						]
+					}
+				}
+			},
+			"14": {
+				"name": "Text.001",
+				"parent": 1,
+				"position": [
+					20.0132,
+					7.22985,
+					5.60601
+				],
+				"rotation": [
+					0,
+					-0,
+					90
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					15
+				]
+			},
+			"15": {
+				"name": "Text.001_0",
+				"parent": 14,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 6,
+						"materials": [
+							"material_8"
+						]
+					}
+				}
+			},
+			"16": {
+				"name": "Cube.014",
+				"parent": 1,
+				"position": [
+					-5.1706,
+					9.11142,
+					15.4463
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					0.09843,
+					0.09843,
+					0.09843
+				],
+				"scaleCompensation": false,
+				"children": [
+					17
+				]
+			},
+			"17": {
+				"name": "Cube.014_0",
+				"parent": 16,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 7,
+						"materials": [
+							"material_7"
+						]
+					}
+				}
+			},
+			"18": {
+				"name": "Plane.005",
+				"parent": 1,
+				"position": [
+					-11.1748,
+					25.2382,
+					5.74481
+				],
+				"rotation": [
+					90,
+					-0,
+					-57.3826
+				],
+				"scale": [
+					1.30402,
+					2.02367,
+					1.30402
+				],
+				"scaleCompensation": false,
+				"children": [
+					19
+				]
+			},
+			"19": {
+				"name": "Plane.005_0",
+				"parent": 18,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 8,
+						"materials": [
+							"material_6"
+						]
+					}
+				}
+			},
+			"20": {
+				"name": "Plane",
+				"parent": 1,
+				"position": [
+					11.6677,
+					-0.83152,
+					-0.03616
+				],
+				"rotation": [
+					0,
+					-0,
+					72.0447
+				],
+				"scale": [
+					0.697269,
+					0.697269,
+					0.69727
+				],
+				"scaleCompensation": false,
+				"children": [
+					21
+				]
+			},
+			"21": {
+				"name": "Plane_0",
+				"parent": 20,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 9,
+						"materials": [
+							"material_5"
+						]
+					}
+				}
+			},
+			"22": {
+				"name": "Sphere.001",
+				"parent": 1,
+				"position": [
+					12.2396,
+					20.0645,
+					0.69925
+				],
+				"rotation": [
+					-90,
+					-78.9877,
+					0
+				],
+				"scale": [
+					1.04152,
+					1.04152,
+					1.04152
+				],
+				"scaleCompensation": false,
+				"children": [
+					23
+				]
+			},
+			"23": {
+				"name": "Sphere.001_0",
+				"parent": 22,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 10,
+						"materials": [
+							"material_4"
+						]
+					}
+				}
+			},
+			"24": {
+				"name": "Cube.001",
+				"parent": 1,
+				"position": [
+					1.97884,
+					1.59045,
+					0.53057
+				],
+				"rotation": [
+					0,
+					-0,
+					0
+				],
+				"scale": [
+					0.55509,
+					0.76905,
+					0.55509
+				],
+				"scaleCompensation": false,
+				"children": [
+					25
+				]
+			},
+			"25": {
+				"name": "Cube.001_0",
+				"parent": 24,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 11,
+						"materials": [
+							"material_3"
+						]
+					}
+				}
+			},
+			"26": {
+				"name": "Cube.000",
+				"parent": 1,
+				"position": [
+					2.22907,
+					-0.26418,
+					0.53057
+				],
+				"rotation": [
+					0,
+					-0,
+					-172.292
+				],
+				"scale": [
+					0.555095,
+					0.769048,
+					0.55509
+				],
+				"scaleCompensation": false,
+				"children": [
+					27
+				]
+			},
+			"27": {
+				"name": "Cube.000_0",
+				"parent": 26,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 12,
+						"materials": [
+							"material_3"
+						]
+					}
+				}
+			},
+			"28": {
+				"name": "Cube.002",
+				"parent": 1,
+				"position": [
+					2.14295,
+					0.70667,
+					1.62882
+				],
+				"rotation": [
+					180,
+					0,
+					-7.7078
+				],
+				"scale": [
+					0.555095,
+					0.769048,
+					0.55509
+				],
+				"scaleCompensation": false,
+				"children": [
+					29
+				]
+			},
+			"29": {
+				"name": "Cube.002_0",
+				"parent": 28,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 13,
+						"materials": [
+							"material_3"
+						]
+					}
+				}
+			},
+			"30": {
+				"name": "Cylinder.000",
+				"parent": 1,
+				"position": [
+					3.85956,
+					18.2321,
+					-0.0454
+				],
+				"rotation": [
+					1.81255,
+					-8.83561,
+					34.1562
+				],
+				"scale": [
+					0.127995,
+					0.12799,
+					0.127992
+				],
+				"scaleCompensation": false,
+				"children": [
+					31
+				]
+			},
+			"31": {
+				"name": "Cylinder.000_0",
+				"parent": 30,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 14,
+						"materials": [
+							"material_2"
+						]
+					}
+				}
+			},
+			"32": {
+				"name": "Cylinder.001",
+				"parent": 1,
+				"position": [
+					5.17879,
+					19.7377,
+					0.22225
+				],
+				"rotation": [
+					0,
+					-0,
+					-68.2634
+				],
+				"scale": [
+					0.127991,
+					0.127991,
+					0.12799
+				],
+				"scaleCompensation": false,
+				"children": [
+					33
+				]
+			},
+			"33": {
+				"name": "Cylinder.001_0",
+				"parent": 32,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 15,
+						"materials": [
+							"material_2"
+						]
+					}
+				}
+			},
+			"34": {
+				"name": "Plane.001",
+				"parent": 1,
+				"position": [
+					16.6398,
+					17.9421,
+					0.92753
+				],
+				"rotation": [
+					8.227,
+					1.8257,
+					-30.0796
+				],
+				"scale": [
+					0.45356,
+					0.453563,
+					0.453565
+				],
+				"scaleCompensation": false,
+				"children": [
+					35
+				]
+			},
+			"35": {
+				"name": "Plane.001_0",
+				"parent": 34,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 16,
+						"materials": [
+							"material_1"
+						]
+					}
+				}
+			},
+			"36": {
+				"name": "Plane.003",
+				"parent": 1,
+				"position": [
+					18.7189,
+					18.3277,
+					0.93773
+				],
+				"rotation": [
+					0,
+					-0,
+					-163.742
+				],
+				"scale": [
+					0.453558,
+					0.453558,
+					0.45356
+				],
+				"scaleCompensation": false,
+				"children": [
+					37
+				]
+			},
+			"37": {
+				"name": "Plane.003_0",
+				"parent": 36,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 17,
+						"materials": [
+							"material_1"
+						]
+					}
+				}
+			},
+			"38": {
+				"name": "Plane.004",
+				"parent": 1,
+				"position": [
+					-1.1934,
+					-2.66255,
+					1.30691
+				],
+				"rotation": [
+					0,
+					-0,
+					-91.9605
+				],
+				"scale": [
+					0.266006,
+					0.266006,
+					0.26601
+				],
+				"scaleCompensation": false,
+				"children": [
+					39
+				]
+			},
+			"39": {
+				"name": "Plane.004_0",
+				"parent": 38,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 18,
+						"materials": [
+							"material_1"
+						]
+					}
+				}
+			},
+			"40": {
+				"name": "Plane.008",
+				"parent": 1,
+				"position": [
+					12.7735,
+					10.98,
+					2.09525
+				],
+				"rotation": [
+					-81.6845,
+					-55.8263,
+					62.2336
+				],
+				"scale": [
+					0.0482269,
+					0.0482212,
+					0.0482221
+				],
+				"scaleCompensation": false,
+				"children": [
+					41
+				]
+			},
+			"41": {
+				"name": "Plane.008_0",
+				"parent": 40,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 19,
+						"materials": [
+							"material"
+						]
+					}
+				}
+			},
+			"42": {
+				"name": "Plane.006",
+				"parent": 1,
+				"position": [
+					19.1297,
+					13.3836,
+					2.09602
+				],
+				"rotation": [
+					-91.0324,
+					-56.6206,
+					157.485
+				],
+				"scale": [
+					0.0482249,
+					0.0482244,
+					0.0482197
+				],
+				"scaleCompensation": false,
+				"children": [
+					43
+				]
+			},
+			"43": {
+				"name": "Plane.006_0",
+				"parent": 42,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 20,
+						"materials": [
+							"material"
+						]
+					}
+				}
+			},
+			"44": {
+				"name": "Plane.007",
+				"parent": 1,
+				"position": [
+					2.93441,
+					-3.62894,
+					2.25266
+				],
+				"rotation": [
+					-88.7205,
+					-55.271,
+					-37.3079
+				],
+				"scale": [
+					0.0482201,
+					0.0482275,
+					0.0482226
+				],
+				"scaleCompensation": false,
+				"children": [
+					45
+				]
+			},
+			"45": {
+				"name": "Plane.007_0",
+				"parent": 44,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 21,
+						"materials": [
+							"material"
+						]
+					}
+				}
+			}
+		}
+	}
+}
