@@ -1,0 +1,221 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "House5_Medieval_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 3438,
+					"triangles": 1854,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "House5_Collider_COLLIDER_0",
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 519,
+					"triangles": 268,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Medieval",
+				"COLLIDER"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "House5.fbx",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "RootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3,
+					5
+				]
+			},
+			"3": {
+				"name": "House5",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					66.4672,
+					74.5377,
+					74.5377
+				],
+				"scaleCompensation": false,
+				"children": [
+					4
+				]
+			},
+			"4": {
+				"name": "House5_Medieval_0",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Medieval"
+						]
+					}
+				}
+			},
+			"5": {
+				"name": "House5_Collider",
+				"parent": 2,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+					6
+				]
+			},
+			"6": {
+				"name": "House5_Collider_COLLIDER_0",
+				"parent": 5,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"COLLIDER"
+						]
+					}
+				}
+			}
+		}
+	}
+}

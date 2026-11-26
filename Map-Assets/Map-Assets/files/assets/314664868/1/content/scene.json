@@ -1,0 +1,198 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Mountain_A_0",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 11721,
+					"triangles": 3907,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				},
+				{
+					"name": "Mountain_B_0",
+					"index": 1,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 3690,
+					"triangles": 1230,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"material",
+				"material_1"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Sketchfab_model",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "a73fca67422b4366866acaeb7c839162.fbx",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					90,
+					-0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "RootNode",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3
+				]
+			},
+			"3": {
+				"name": "Mountain",
+				"parent": 2,
+				"position": [
+					140,
+					0,
+					-105.118
+				],
+				"rotation": [
+					9.33467e-06,
+					-0,
+					0
+				],
+				"scale": [
+					918.54,
+					918.54,
+					918.54
+				],
+				"scaleCompensation": false,
+				"children": [
+					4,
+					5
+				]
+			},
+			"4": {
+				"name": "Mountain_A_0",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"material"
+						]
+					}
+				}
+			},
+			"5": {
+				"name": "Mountain_B_0",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 1,
+						"materials": [
+							"material_1"
+						]
+					}
+				}
+			}
+		}
+	}
+}
